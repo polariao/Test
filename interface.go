@@ -5,3 +5,7 @@ type Animal interface {
 	Run()
 }
 
+func Action(a Animal)  {
+	a.Run()
+	a.Eat()
+}
